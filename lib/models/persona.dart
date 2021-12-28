@@ -1,24 +1,38 @@
-// class Persona {
-//   int _id;
-//   String _tipoDoc;
-//   String _numeroDoc;
-//   String _nombre;
-//   String _apellido;
-//   String _telefono;
-//   String _email;
-//   String _password;
-//   DateTime _fechaNacimiento;
-//   Sexo _sexo;
-//   String _nacionalidad;
-//   String _estadoCivil;
+class Persona {
+  int id;
+  String tipoDoc;
+  String numeroDoc;
+  String nombre;
+  String apellido;
+  String telefono;
+  String email;
+  String? password;
+  DateTime fechaNacimiento;
+  Sexo sexo;
+  String nacionalidad;
+  String estadoCivil;
 
-//   // TODO: Descomentar cuando se creen estas clases
-//   // TipoPersona _tipoPersona;
-//   // Direccion _direccion;
-// }
+  Persona(
+      {required this.id,
+      required this.tipoDoc,
+      required this.numeroDoc,
+      required this.nombre,
+      required this.apellido,
+      required this.telefono,
+      required this.email,
+      this.password,
+      required this.fechaNacimiento,
+      required this.sexo,
+      required this.nacionalidad,
+      required this.estadoCivil});
 
-// enum Sexo {
-//   M,
-//   F,
-//   x,
-// }
+  // TODO: Descomentar cuando se creen estas clases
+  // TipoPersona _tipoPersona;
+  // Direccion _direccion;
+}
+
+enum Sexo {
+  M,
+  F,
+  X,
+}
