@@ -4,6 +4,8 @@ import 'package:hp_frontend/screens/mi_informacion.dart';
 import 'buscar.dart';
 
 class Home extends StatefulWidget {
+  static String id = '/';
+
   const Home({Key? key}) : super(key: key);
 
   @override

@@ -20,7 +20,7 @@ class Buscar extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(
-              height: 45,
+              height: 50,
               child: TextField(
                 keyboardType: const TextInputType.numberWithOptions(),
                 decoration: InputDecoration(

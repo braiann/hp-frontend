@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
       title: 'Hospital',
       initialRoute: 'login',
       routes: {
-        '/': (context) => const Home(),
-        'login': (context) => const LogIn(),
+        Home.id: (context) => const Home(),
+        LogIn.id: (context) => const LogIn(),
       },
     );
   }

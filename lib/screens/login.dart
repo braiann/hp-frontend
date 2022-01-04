@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LogIn extends StatelessWidget {
+  static String id = 'login';
   const LogIn({Key? key}) : super(key: key);
 
   @override
